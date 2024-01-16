@@ -1,5 +1,5 @@
 {
-  "name": "timestamp-utils",
+  "name": "modern-time-utils",
   "version": "1.0.0",
   "description": "",
   "isLibrary": true,
@@ -33,9 +33,9 @@
     "time",
     "date",
     "utils",
-    "timestamp-utils",
+    "modern-time-utils",
     "date-utils",
-    "timestamp-utils-js",
+    "modern-time-utils-js",
     "date-utils-js"
   ]
 }

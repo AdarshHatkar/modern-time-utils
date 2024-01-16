@@ -1,20 +1,20 @@
-# timestamp-utils
+# modern-time-utils
 
 A simple npm package for common timestamp utility functions.
 
 ## Installation
 
-You can install timestamp-utils using npm:
+You can install modern-time-utils using npm:
 
 ```bash
- npm install timestamp-utils
+ npm install modern-time-utils
 ```
 
 ## Usage
 ### getCurrentTimeStamp(): number
 Returns the current timestamp in milliseconds.
 ```javascript
-import { getCurrentTimeStamp } from 'timestamp-utils';
+import { getCurrentTimeStamp } from 'modern-time-utils';
 
 const timeStamp = getCurrentTimeStamp();
 console.log(`Current timestamp: ${timeStamp}`); 
@@ -23,7 +23,7 @@ console.log(`Current timestamp: ${timeStamp}`);
 ### getCurrentTimeStampInSeconds(): number
 Returns the current timestamp in seconds.
 ```javascript
-import { getCurrentTimeStampInSeconds } from 'timestamp-utils';
+import { getCurrentTimeStampInSeconds } from 'modern-time-utils';
 
 const timeStampInSeconds = getCurrentTimeStampInSeconds();
 console.log(`Current timestamp in seconds: ${timeStampInSeconds}`);
