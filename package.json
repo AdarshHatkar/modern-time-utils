@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "isLibrary": true,
-  "source": "src/index.ts",
+  "source": "src/timeUtils.ts",
   "type": "module",
   "main": "dist/main.js",
   "types": "dist/types.d.ts",
