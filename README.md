@@ -1,20 +1,20 @@
-# time-utils
+# timestamp-utils
 
-A simple npm package for common time utility functions.
+A simple npm package for common timestamp utility functions.
 
 ## Installation
 
-You can install time-utils using npm:
+You can install timestamp-utils using npm:
 
 ```bash
- npm install time-utils
+ npm install timestamp-utils
 ```
 
 ## Usage
 ### getCurrentTimeStamp(): number
 Returns the current timestamp in milliseconds.
 ```javascript
-import { getCurrentTimeStamp } from 'time-utils';
+import { getCurrentTimeStamp } from 'timestamp-utils';
 
 const timeStamp = getCurrentTimeStamp();
 console.log(`Current timestamp: ${timeStamp}`); 
@@ -23,7 +23,7 @@ console.log(`Current timestamp: ${timeStamp}`);
 ### getCurrentTimeStampInSeconds(): number
 Returns the current timestamp in seconds.
 ```javascript
-import { getCurrentTimeStampInSeconds } from 'time-utils';
+import { getCurrentTimeStampInSeconds } from 'timestamp-utils';
 
 const timeStampInSeconds = getCurrentTimeStampInSeconds();
 console.log(`Current timestamp in seconds: ${timeStampInSeconds}`);
